@@ -57,7 +57,7 @@ CHECKPOINT = "work_dir/ETAVS_pvt2_s4/S4_best.pth"
 
 bash test.sh ${TASK} ${CONFIG} ${CHECKPOINT}
 ```
-
+checkpoints can be found [here](https://drive.google.com/drive/folders/1COs4afrbB0PC50jo3j1lA_Ue_XNtyQMU?usp=sharing)
 
 ## 5. Citation
 
