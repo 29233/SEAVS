@@ -1,4 +1,4 @@
-from .ETAVS import AVS_Model
+from .SEAVS import AVS_Model
 
 def build_model(type, **kwargs):
     if type =='AVS_Model':

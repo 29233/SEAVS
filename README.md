@@ -1,6 +1,6 @@
-# A Simple Baseline for Parameter Efficient Audio-Visual Segmentation
+# A Simple yet Efficient Baseline for Parameter Efficient Audio-Visual Segmentation
 
-This repository is the official implementation of A Simple Baseline for Parameter Efficient Audio-Visual Segmentation. 
+This repository is the official implementation of A Simple yet Efficient Baseline for Parameter Efficient Audio-Visual Segmentation. 
 
 >📋  **Method Overview.** Left: Our framework includes frozen visual and audio encoders, Messenger Blocks, and a lightweight decoder. The Messenger Blocks, placed between different stages of the visual encoder, facilitates bidirectional feature interaction.**Right:** Messenger Block contains three components: 1) audio and visual features are compressed into a small set of messenger queries via the Message Deliver (MD) operation; 2) audio-visual temporal fusion (AVTF) captures cross-modal temporal dependencies among the queries; 3) the Message Receive (MR) operation projects the temporal-level information back to the raw features to enable feature adaptation.
 
